@@ -1,8 +1,9 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
-import { Home, Main, PageNotFound } from 'pages';
+import { Auth, Home, Main, PageNotFound } from 'pages';
 
 import { Layout } from 'shared/ui';
+import { PageLayout } from 'shared/ui/Layout/PageLayout';
 
 export const withRouter =
   <T extends React.PropsWithChildren>(Cmp: React.ComponentType<T>) =>
@@ -14,7 +15,13 @@ export const withRouter =
             <Route element={<Layout />}>
               <Route path="/" element={<Home />} />
             </Route>
-            <Route path="/main" element={<Main />} />
+
+            <Route element={<PageLayout />}>
+              <Route path="/main" element={<Main />} />
+            </Route>
+
+            <Route path="/auth" element={<Auth />} />
+
             <Route path="*" element={<PageNotFound />} />
           </Routes>
         </Cmp>
