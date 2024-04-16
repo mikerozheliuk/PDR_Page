@@ -67,9 +67,9 @@ export const Sidebar: React.FC = () => {
         })}
       >
         <NavLink
-          to="/"
+          to="/main"
           className={cn(styles.contents__item, {
-            [styles.active]: location.pathname === '/'
+            [styles.active]: location.pathname === '/main'
           })}
         >
           <div className={styles.contents__logo}>
@@ -79,9 +79,9 @@ export const Sidebar: React.FC = () => {
         </NavLink>
 
         <NavLink
-          to="/main"
+          to="/mainns"
           className={cn(styles.contents__item, {
-            [styles.active]: location.pathname === '/main'
+            [styles.active]: location.pathname === '/mainns'
           })}
         >
           <div className={styles.contents__logo}>

@@ -1,6 +1,58 @@
+@import '/src/styles/_index';
+
 .main {
-  &__content {
-    color: red;
-    font-size: 34px;
+  margin: 0 20px;
+}
+
+.tests {
+  &__title {
+    font-size: 1.8rem;
+    color: $white-color;
+  }
+
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &__descr,
+  &__choseCategory {
+    color: $white-color;
+    max-width: 690px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: 700;
+  }
+
+  &__categoryList {
+    width: 450px;
+    max-width: 100%;
+  }
+
+  &__categoryItem {
+    display: flex;
+    gap: 10px;
+    text-decoration: none;
+    background-color: $main-color;
+    color: $bg-color;
+    font-weight: 900;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.5rem;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    width: 100%;
+    box-shadow: 0.1rem 0.2rem 0.2rem $main-color;
+    transition: 200ms;
+    cursor: pointer;
+    margin-bottom: 0.9rem;
+    &:hover {
+      transform: scale(0.95);
+    }
   }
 }

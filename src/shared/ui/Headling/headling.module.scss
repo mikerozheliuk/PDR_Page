@@ -1,0 +1,18 @@
+@import '/src/styles/_index';
+
+.header {
+  font-size: 1.2rem;
+  color: $white-color;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin: 2.5rem 0rem 2.5rem 0rem;
+}
+
+.fabel {
+  transition: all 0.8s;
+  &:hover {
+    color: $main-color;
+  }
+}
