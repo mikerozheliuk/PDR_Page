@@ -24,8 +24,9 @@ import { FaHome } from 'react-icons/fa';
 import { FaUser } from 'react-icons/fa6';
 import { IoMdExit } from 'react-icons/io';
 import { MdPeopleAlt } from 'react-icons/md';
-import { IoMdSettings } from 'react-icons/io';
+
 import { HiSpeakerphone } from 'react-icons/hi';
+import { PiCurrencyDollarSimpleFill } from 'react-icons/pi';
 
 export const Sidebar: React.FC = () => {
   const location = useLocation();
@@ -121,15 +122,15 @@ export const Sidebar: React.FC = () => {
         </NavLink>
 
         <NavLink
-          to="/settings"
+          to="/tariffs"
           className={cn(styles.contents__item, {
-            [styles.active]: location.pathname === '/settings'
+            [styles.active]: location.pathname === '/tariffs'
           })}
         >
           <div className={styles.contents__logo}>
-            <IoMdSettings />
+            <PiCurrencyDollarSimpleFill />
           </div>
-          <span className={styles.contents__text}>settings</span>
+          <span className={styles.contents__text}>Тарифи</span>
         </NavLink>
 
         <NavLink

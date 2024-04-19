@@ -5,6 +5,7 @@ import { Auth, Home, Main, PageNotFound } from 'pages';
 import { Layout } from 'shared/ui';
 import { PageLayout } from 'shared/ui/Layout/PageLayout';
 import Profile from 'pages/profile';
+import Tariffs from 'pages/tariffs';
 
 export const withRouter =
   <T extends React.PropsWithChildren>(Cmp: React.ComponentType<T>) =>
@@ -20,6 +21,7 @@ export const withRouter =
             <Route element={<PageLayout />}>
               <Route path="/main" element={<Main />} />
               <Route path="/profile" element={<Profile />} />
+              <Route path="/tariffs" element={<Tariffs />} />
             </Route>
 
             <Route path="/auth" element={<Auth />} />

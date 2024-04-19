@@ -1,0 +1,110 @@
+@import '/src/styles/_index';
+
+.tariffs {
+  min-height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  color: $text-color;
+
+  &__title {
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 3.5rem;
+    font-size: 2.4rem;
+    word-spacing: 0.3rem;
+  }
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1rem;
+
+  &__item {
+    position: relative;
+    background-color: #22262c;
+    color: $text-color;
+    padding: 1rem 2rem;
+    text-align: center;
+    position: relative;
+    border-radius: 20px;
+  }
+
+  &__title {
+    font-weight: 500;
+    font-size: 2.4rem;
+    text-align: center;
+    padding-bottom: 10px;
+  }
+
+  &__price {
+    font-weight: 500;
+    font-size: 2.2rem;
+
+    span {
+      font-size: 18px;
+      color: $text-color;
+    }
+  }
+
+  &__btn {
+    font-size: 1rem;
+    border: none;
+    background-color: transparent;
+    color: $text-color;
+    font-weight: 600;
+
+    border: 1px solid $main-color;
+    padding: 0.8rem 2rem;
+    position: absolute;
+
+    left: 7rem;
+    bottom: 0;
+    margin-bottom: 2rem;
+
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+
+    &:hover {
+      background-color: $main-color;
+    }
+  }
+
+  ul {
+    max-width: 350px;
+    margin-top: 3rem;
+    list-style: none;
+    text-align: left;
+    margin-bottom: 7rem;
+    line-height: 2.5;
+  }
+
+  ul li::before {
+    content: '\2022';
+    color: $main-color;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+    line-height: 2.5;
+  }
+}
+
+@media (max-width: 1000px) {
+  .cards {
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1rem;
+  }
+}
+
+@media (max-width: 675px) {
+  .cards {
+    grid-template-columns: 1fr;
+    grid-gap: 1rem;
+  }
+}
