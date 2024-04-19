@@ -109,9 +109,9 @@ export const Sidebar: React.FC = () => {
         </NavLink>
 
         <NavLink
-          to="/performance"
+          to="/profile"
           className={cn(styles.contents__item, {
-            [styles.active]: location.pathname === '/performance'
+            [styles.active]: location.pathname === '/profile'
           })}
         >
           <div className={styles.contents__logo}>
