@@ -1,0 +1,236 @@
+@import '/src/styles/_index';
+
+span {
+  font-size: 30px;
+  color: $bg-color;
+}
+//========================================================================================================
+.profile {
+  text-align: center;
+  margin: 0 20px;
+
+  &__title {
+    font-size: 2.25rem;
+    font-weight: 500;
+    color: $white-color;
+    margin-bottom: 20px;
+  }
+
+  &__subtitle {
+    font-weight: 500;
+    color: $white-color;
+    margin-bottom: 15px;
+  }
+}
+
+//========================================================================================================
+
+.data {
+  max-width: 760px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+
+  &__content {
+    width: 50%;
+    padding: 0 20px;
+  }
+
+  &__statistic {
+    width: 50%;
+    padding: 0 20px;
+  }
+}
+
+//========================================================================================================
+
+.item {
+  min-height: 65px;
+  background: $main-color;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 10px;
+  padding: 0px 20px;
+  gap: 20px;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 1.625rem;
+  transition: all 0.3s;
+
+  &:hover {
+    transform: scale(0.95);
+  }
+
+  &__title {
+    font-size: 18px;
+    font-weight: 600;
+    color: #0d1f3c;
+    line-height: 1.777;
+  }
+
+  &__text {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.5;
+  }
+
+  &__link {
+    text-decoration: underline;
+  }
+}
+
+//========================================================================================================
+
+.statistic {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+
+  &__name {
+    font-size: 20px;
+    color: $white-color;
+    font-weight: 700;
+  }
+
+  &__correct {
+    font-size: 14px;
+    color: $white-color;
+    text-decoration: underline;
+    cursor: pointer;
+    &:hover {
+      color: $main-color;
+    }
+  }
+}
+
+//========================================================================================================
+
+.info {
+  background-color: $main-color;
+  padding: 25px 15px;
+  border-radius: 20px;
+
+  &__progres {
+    display: flex;
+    justify-content: space-between;
+    color: $bg-color;
+    position: relative;
+
+    &::after {
+      content: '';
+      position: absolute;
+      bottom: -30%;
+      left: 0;
+      height: 2px;
+      width: 100%;
+      border-bottom: 1px solid rgb(89, 140, 0);
+    }
+  }
+
+  &__label {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  &__text {
+    font-size: 14px;
+  }
+
+  &__line {
+    width: 100%;
+    border: 3px solid #dfdfdf;
+    position: relative;
+    top: 0;
+    left: 0;
+    border-radius: 20px;
+
+    &::after {
+      content: '';
+      position: absolute;
+      width: 10%;
+      bottom: -3px;
+      left: -3px;
+      border: 3px solid $green-color;
+      border-radius: 20px;
+    }
+  }
+
+  &__value {
+    font-size: 30px;
+    color: $green-color;
+    font-weight: 700;
+  }
+
+  &__exams {
+    margin-top: 30px;
+    display: flex;
+    position: relative;
+
+    &::after {
+      content: '';
+      position: absolute;
+      bottom: -30%;
+      left: 0;
+      height: 2px;
+      width: 100%;
+      border-bottom: 1px solid rgb(89, 140, 0);
+    }
+  }
+
+  &__done {
+    width: 50%;
+    color: $green-color;
+    font-weight: 700;
+    font-size: 30px;
+    position: relative;
+
+    span {
+      position: absolute;
+      top: 15%;
+      font-size: 15px;
+      color: rgb(89, 140, 0);
+    }
+  }
+
+  &__average {
+    width: 50%;
+    color: $green-color;
+    font-weight: 700;
+    font-size: 30px;
+    position: relative;
+
+    span {
+      position: absolute;
+      top: 15%;
+      font-size: 15px;
+      color: rgb(89, 140, 0);
+    }
+  }
+
+  &__descrp {
+    font-size: 11px;
+    font-weight: 500;
+  }
+
+  &__results {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__item {
+    width: 30%;
+    font-weight: 700;
+    font-size: 30px;
+
+    &_red {
+      color: rgb(206, 10, 10);
+    }
+
+    &_green {
+      color: rgb(16, 182, 16);
+    }
+  }
+}
