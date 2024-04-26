@@ -235,7 +235,7 @@
 .modal {
   width: 400px !important;
   border-radius: 10px !important;
-  background-color: #171717 !important;
+  background-color: $bg-sidebar !important;
 
   &__header {
     color: $white-color;
@@ -256,10 +256,11 @@
   }
 
   &__button {
-    background-color: #2b2525 !important;
+    background-color: $bg-sidebar !important;
     border-radius: 15px !important;
     color: $white-color !important;
     font-weight: 600 !important;
+    border: 1px solid #382e2e;
 
     &:hover {
       background-color: #382e2e !important;

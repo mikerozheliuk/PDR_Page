@@ -1,10 +1,15 @@
 import { Headling } from 'shared/ui';
+
 import styles from './profile.module.scss';
+
 import cn from 'classnames';
+
 import { Link } from 'react-router-dom';
-import { FaHandHoldingHeart, FaCar, FaClipboardList } from 'react-icons/fa';
+import { FaHandHoldingHeart, FaClipboardList } from 'react-icons/fa';
 import { BsPeopleFill } from 'react-icons/bs';
-import { GiReturnArrow } from 'react-icons/gi';
+import React from 'react';
+import { StatisticModal } from './StatisticModal';
+import { ResetModal } from './ResetModal';
 
 export const Profile: React.FC = () => {
   return (
@@ -14,7 +19,7 @@ export const Profile: React.FC = () => {
       <div className={styles.profile__subtitle}>Особисті дані</div>
       <div className={cn(styles.profile__data, styles.data)}>
         <div className={styles.data__content}>
-          <Link to="#" className={cn(styles.content__item, styles.item)}>
+          <Link to="/support" className={cn(styles.content__item, styles.item)}>
             <span>
               <FaHandHoldingHeart />
             </span>
@@ -23,15 +28,9 @@ export const Profile: React.FC = () => {
               <div className={styles.item__text}>Вiдповiдi на вашi питання</div>
             </div>
           </Link>
-          <Link to="#" className={cn(styles.content__item, styles.item)}>
-            <span>
-              <FaCar />
-            </span>
-            <div className={styles.item__descr}>
-              <h4 className={styles.item__title}>Категорія:</h4>
-              <div className={styles.item__text}>B</div>
-            </div>
-          </Link>
+
+          <StatisticModal />
+
           <Link to="#" className={cn(styles.content__item, styles.item)}>
             <span>
               <BsPeopleFill />
@@ -45,15 +44,9 @@ export const Profile: React.FC = () => {
               </div>
             </div>
           </Link>
-          <Link to="#" className={cn(styles.content__item, styles.item)}>
-            <span>
-              <GiReturnArrow />
-            </span>
-            <div className={styles.item__descr}>
-              <h4 className={styles.item__title}>Скинути статистику</h4>
-              <div className={styles.item__text}>Повернути все як було раніше</div>
-            </div>
-          </Link>
+
+          <ResetModal />
+
           <Link to="#" className={cn(styles.content__item, styles.item)}>
             <span>
               <FaClipboardList />

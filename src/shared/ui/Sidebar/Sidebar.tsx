@@ -38,9 +38,7 @@ export const Sidebar: React.FC = () => {
     setCloseMenu(!closeMenu);
   };
 
-  const Overlay = () => (
-    <ModalOverlay bg="none" backdropFilter="auto" backdropInvert="80%" backdropBlur="2px" />
-  );
+  const Overlay = () => <ModalOverlay bg="none" backdropFilter="auto" backdropBlur="3px" />;
 
   const { isOpen, onOpen, onClose } = useDisclosure();
   const [overlay, setOverlay] = useState(<Overlay />);
