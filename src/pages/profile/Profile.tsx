@@ -10,6 +10,7 @@ import { BsPeopleFill } from 'react-icons/bs';
 import React from 'react';
 import { StatisticModal } from './StatisticModal';
 import { ResetModal } from './ResetModal';
+import { UserAgreementModal } from './UserAgreementModal';
 
 export const Profile: React.FC = () => {
   return (
@@ -47,15 +48,7 @@ export const Profile: React.FC = () => {
 
           <ResetModal />
 
-          <Link to="#" className={cn(styles.content__item, styles.item)}>
-            <span>
-              <FaClipboardList />
-            </span>
-            <div className={styles.item__descr}>
-              <h4 className={styles.item__title}>Користувацька угода</h4>
-              <div className={styles.item__text}>Сторінка з користувацькою угодою</div>
-            </div>
-          </Link>
+          <UserAgreementModal />
         </div>
         <div className={cn(styles.data__statistic, styles.statistic)}>
           <div className={styles.statistic__user}>

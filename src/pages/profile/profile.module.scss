@@ -249,11 +249,38 @@ span {
   }
 
   &__body {
-    padding: 0px 15px;
+    padding: 15px 15px;
   }
 
   &__text {
     color: $white-color;
+  }
+
+  &__agreement {
+    margin: 0 auto;
+    min-height: 100vh;
+    padding: 40px 20px !important;
+    max-width: 900px;
+    color: $bg-color;
+    background-color: $main-color;
+
+    .bullet_list {
+      padding-left: 15px;
+      li {
+        list-style-type: disc;
+      }
+    }
+
+    h3 {
+      font-weight: 700;
+    }
+
+    p {
+      span {
+        font-size: 16px;
+        font-weight: 700;
+      }
+    }
   }
 
   &__list {

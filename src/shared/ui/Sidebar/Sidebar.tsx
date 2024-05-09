@@ -117,7 +117,7 @@ export const Sidebar: React.FC = () => {
           <div className={styles.contents__logo}>
             <FaUser />
           </div>
-          <span className={styles.contents__text}>профіль</span>
+          <span className={styles.contents__text}>Профіль</span>
         </NavLink>
 
         <NavLink
@@ -167,7 +167,7 @@ export const Sidebar: React.FC = () => {
             <IoMdExit />
           </div>
 
-          <span className={styles.contents__text}>вихід</span>
+          <span className={styles.contents__text}>Вихід</span>
         </div>
 
         <Modal isCentered isOpen={isOpen} onClose={onClose}>
