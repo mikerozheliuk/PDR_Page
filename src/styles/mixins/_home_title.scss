@@ -12,3 +12,13 @@
     font-size: 135%;
   }
 }
+
+@media (max-width: 570px) {
+  @mixin home_title {
+    font-size: 14px;
+  }
+
+  span {
+    font-size: 70%;
+  }
+}

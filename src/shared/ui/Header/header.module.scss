@@ -17,3 +17,29 @@
     @include home_title;
   }
 }
+
+@media (max-width: 570px) {
+  .header {
+    &__container {
+      gap: 5px;
+    }
+
+    &__title {
+      font-size: 25px;
+    }
+  }
+
+  .button {
+    &_header {
+      font-size: 13px !important;
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  .button {
+    &_header {
+      font-size: 12px !important;
+    }
+  }
+}

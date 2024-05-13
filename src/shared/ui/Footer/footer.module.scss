@@ -23,3 +23,15 @@
     @include home_title;
   }
 }
+
+@media (max-width: 570px) {
+  .footer {
+    &__title {
+      font-size: 25px;
+    }
+
+    &__text {
+      font-size: 15px;
+    }
+  }
+}

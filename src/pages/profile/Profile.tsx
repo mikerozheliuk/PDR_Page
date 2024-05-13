@@ -5,7 +5,7 @@ import styles from './profile.module.scss';
 import cn from 'classnames';
 
 import { Link } from 'react-router-dom';
-import { FaHandHoldingHeart, FaClipboardList } from 'react-icons/fa';
+import { FaHandHoldingHeart } from 'react-icons/fa';
 import { BsPeopleFill } from 'react-icons/bs';
 import React from 'react';
 import { StatisticModal } from './StatisticModal';

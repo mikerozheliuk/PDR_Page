@@ -227,10 +227,10 @@ export const Home: React.FC = () => {
         </section>
 
         <section className={styles.partners}>
-          <div className={styles.partners__title}>
-            <span>П</span>АРТНЁРАМ
-          </div>
           <div className={styles.partners__wrap}>
+            <div className={styles.partners__title}>
+              <span>П</span>АРТНЁРАМ
+            </div>
             <div className={styles.partners__content}>
               <div className={cn(styles.partners__text, styles.text)}>
                 - Подключение партнёрсткой программы занимает не более 1 минуты

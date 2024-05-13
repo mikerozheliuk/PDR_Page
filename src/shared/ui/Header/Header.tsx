@@ -1,6 +1,7 @@
 import { Button, Container } from '@chakra-ui/react';
 
 import styles from './header.module.scss';
+import cn from 'classnames';
 
 export const Header: React.FC = () => {
   return (
@@ -10,7 +11,7 @@ export const Header: React.FC = () => {
           Super <span>PDR</span>
         </div>
 
-        <Button className={styles.button}>Зайти в профіль</Button>
+        <Button className={cn(styles.button, styles.button_header)}>Зайти в профіль</Button>
       </Container>
     </div>
   );
