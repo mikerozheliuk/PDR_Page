@@ -2,8 +2,6 @@ import { useState } from 'react';
 
 import { NavLink, useLocation, useNavigate } from 'react-router-dom';
 
-import styles from './sidebar.module.scss';
-
 import cn from 'classnames';
 
 import {
@@ -17,8 +15,6 @@ import {
   useDisclosure
 } from '@chakra-ui/react';
 
-import Profile from 'assets/profile.png';
-
 import { FaRoad } from 'react-icons/fa';
 import { FaHome } from 'react-icons/fa';
 import { FaUser } from 'react-icons/fa6';
@@ -28,6 +24,8 @@ import { MdOutlineIntegrationInstructions } from 'react-icons/md';
 
 import { HiSpeakerphone } from 'react-icons/hi';
 import { PiCurrencyDollarSimpleFill } from 'react-icons/pi';
+
+import styles from './sidebar.module.scss';
 
 export const Sidebar: React.FC = () => {
   const location = useLocation();
@@ -39,6 +37,9 @@ export const Sidebar: React.FC = () => {
   const handleCloseMenu = () => {
     setCloseMenu(!closeMenu);
   };
+
+  const profilePic = localStorage.getItem('profilePic');
+  const imageUrl = profilePic ? profilePic : 'default-profile-pic-url';
 
   const Overlay = () => <ModalOverlay bg="none" backdropFilter="auto" backdropBlur="3px" />;
 
@@ -74,10 +75,12 @@ export const Sidebar: React.FC = () => {
           [styles.active]: closeMenu
         })}
       >
-        <img src={Profile} alt="profile" />
+        <div className={styles.profile__image}>
+          <img src={imageUrl} alt="profile" />
+        </div>
         <div className={styles.profile__contents}>
-          <p className={styles.profile__name}>Hello, John👋</p>
-          <p className={styles.profile__email}>johnsmith@gmail.com</p>
+          <p className={styles.profile__name}>{localStorage.getItem('name')}</p>
+          <p className={styles.profile__email}>{localStorage.getItem('email')}</p>
         </div>
       </div>
 
