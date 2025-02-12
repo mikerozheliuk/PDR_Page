@@ -1,5 +1,11 @@
 import { initializeApp } from 'firebase/app';
-import { getAuth, signInWithPopup, GoogleAuthProvider } from 'firebase/auth';
+import {
+  getAuth,
+  signInWithPopup,
+  GoogleAuthProvider,
+  setPersistence,
+  browserLocalPersistence
+} from 'firebase/auth';
 
 const API_KEY = import.meta.env.VITE_API_KEY;
 
@@ -15,36 +21,29 @@ const firebaseConfig = {
 const app = initializeApp(firebaseConfig);
 export const auth = getAuth(app);
 
+setPersistence(auth, browserLocalPersistence)
+  .then(() => {
+    console.log('Persistence set to browserLocalPersistence');
+  })
+  .catch((error) => {
+    console.error('Error setting persistence:', error);
+  });
+
 const provider = new GoogleAuthProvider();
 
-// Оголошення інтерфейсів User і AuthResult
-interface User {
-  displayName: string | null;
-  email: string | null;
-  photoURL: string | null;
-}
+export const signInWithGoogle = async () => {
+  try {
+    const result = await signInWithPopup(auth, provider);
+    const { displayName, email, photoURL } = result.user;
 
-interface AuthResult {
-  user: User;
-  // Інші властивості AuthResult, які вам потрібні
-}
+    const name = displayName ?? 'Anonymous';
+    const userEmail = email ?? 'example@example.com';
+    const profilePic = photoURL ?? '';
 
-export const signInWithGoogle = () => {
-  signInWithPopup(auth, provider)
-    .then((result: AuthResult) => {
-      const { displayName, email, photoURL } = result.user;
-
-      // Перевірка на null перед збереженням в localStorage
-      const name = displayName ?? 'Anonymous';
-      const userEmail = email ?? 'example@example.com';
-      const profilePic = photoURL ?? '';
-
-      sessionStorage.setItem('name', name);
-      sessionStorage.setItem('email', userEmail);
-      sessionStorage.setItem('profilePic', profilePic);
-    })
-
-    .catch((error) => {
-      console.log(error);
-    });
+    sessionStorage.setItem('name', name);
+    sessionStorage.setItem('email', userEmail);
+    sessionStorage.setItem('profilePic', profilePic);
+  } catch (error) {
+    console.error('Error during sign in:', error);
+  }
 };
