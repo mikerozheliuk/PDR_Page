@@ -8,6 +8,8 @@ span {
 .profile {
   text-align: center;
   margin: 0 20px;
+  width: 100%;
+  height: 100vh;
 
   &__title {
     font-size: 2.25rem;
@@ -278,7 +280,7 @@ span {
 
   &__agreement {
     margin: 0 auto;
-    min-height: 100vh;
+    min-height: 1005;
     padding: 40px 20px !important;
     max-width: 900px;
     color: $bg-color;

@@ -1,23 +1,16 @@
 import { useNavigate } from 'react-router-dom';
 import { motion, Variants } from 'framer-motion';
-
 import cn from 'classnames';
-
 import { signInWithGoogle } from './firebase';
-
 import { FaGoogle } from 'react-icons/fa';
 import { FaApple } from 'react-icons/fa';
 import { TiArrowBack } from 'react-icons/ti';
 import { FaPeopleGroup } from 'react-icons/fa6';
-
-import styles from './auth.module.scss';
 import { useState } from 'react';
 import { Spinner } from 'shared/ui/index.ts';
+import styles from './auth.module.scss';
 
-const tabPanelVariants: Variants = {
-  hidden: { height: 0 },
-  visible: { height: 'auto' }
-};
+const tabPanelVariants: Variants = { hidden: { height: 0 }, visible: { height: 'auto' } };
 
 export const Auth: React.FC = () => {
   const [loading, setLoading] = useState(false);
@@ -34,14 +27,13 @@ export const Auth: React.FC = () => {
       };
       console.log('Logged in user:', user);
 
-      // Затримка переходу на головну сторінку
       setTimeout(() => {
         setLoading(false);
         navigate('/main');
-      }, 5000);
+      }, 2000);
     } catch (error) {
       console.error('Error signing in:', error);
-      setLoading(false); // Скасувати спіннер у випадку помилки
+      setLoading(false);
     }
   };
 
