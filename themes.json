@@ -1,0 +1,346 @@
+[
+  {
+    "id": 1,
+    "name": {
+      "uk": "ЗАГАЛЬНІ ПОЛОЖЕННЯ",
+      "en": "GENERAL PROVISIONS"
+    },
+    "countQuestions": 79
+  },
+  {
+    "id": 2,
+    "name": {
+      "uk": "ОБОВ’ЯЗКИ І ПРАВА ВОДІЇВ МЕХАНІЧНИХ ТРАНСПОРТНИХ ЗАСОБІВ",
+      "en": "RESPONSIBILITIES AND RIGHTS OF DRIVERS OF MECHANICAL VEHICLES"
+    },
+    "countQuestions": 37
+  },
+  {
+    "id": 30,
+    "name": {
+      "uk": "НОМЕРНІ, РОЗПІЗНАВАЛЬНІ ЗНАКИ, НАПИСИ І ПОЗНАЧЕННЯ",
+      "en": "NUMBERS, IDENTIFICATIONS, INSCRIPTIONS AND SYMBOLS"
+    },
+    "countQuestions": 13
+  },
+  {
+    "id": 3,
+    "name": {
+      "uk": "РУХ ТРАНСПОРТНИХ ЗАСОБІВ ІЗ СПЕЦІАЛЬНИМИ СИГНАЛАМИ",
+      "en": "MOVEMENT OF VEHICLES WITH SPECIAL SIGNALS"
+    },
+    "countQuestions": 15
+  },
+  {
+    "id": 4,
+    "name": {
+      "uk": "ОБОВ’ЯЗКИ І ПРАВА ПІШОХОДІВ",
+      "en": "RESPONSIBILITIES AND RIGHTS OF PEDESTRIANS"
+    },
+    "countQuestions": 26
+  },
+  {
+    "id": 5,
+    "name": {
+      "uk": "ОБОВ’ЯЗКИ І ПРАВА ПАСАЖИРІВ",
+      "en": "RESPONSIBILITIES AND RIGHTS OF PASSENGERS"
+    },
+    "countQuestions": 16
+  },
+  {
+    "id": 6,
+    "name": {
+      "uk": "ВИМОГИ ДО ВЕЛОСИПЕДИСТІВ",
+      "en": "REQUIREMENTS FOR CYCLISTS"
+    },
+    "countQuestions": 22
+  },
+  {
+    "id": 7,
+    "name": {
+      "uk": "ВИМОГИ ДО ОСІБ, ЯКІ КЕРУЮТЬ  ГУЖОВИМ ТРАНСПОРТОМ, І ПОГОНИЧІВ ТВАРИН",
+      "en": "REQUIREMENTS FOR DRIVERS AND ANIMAL DRIVERS"
+    },
+    "countQuestions": 8
+  },
+  {
+    "id": 8,
+    "name": {
+      "uk": "РЕГУЛЮВАННЯ ДОРОЖНЬОГО РУХУ",
+      "en": "TRAFFIC REGULATION"
+    },
+    "countQuestions": 90
+  },
+  {
+    "id": 9,
+    "name": {
+      "uk": "ПОПЕРЕДЖУВАЛЬНІ СИГНАЛИ",
+      "en": "WARNING SIGNALS"
+    },
+    "countQuestions": 58
+  },
+  {
+    "id": 10,
+    "name": {
+      "uk": "ПОЧАТОК РУХУ ТА ЗМІНА ЙОГО НАПРЯМКУ",
+      "en": "THE BEGINNING OF MOVEMENT AND CHANGE OF ITS DIRECTION"
+    },
+    "countQuestions": 76
+  },
+  {
+    "id": 11,
+    "name": {
+      "uk": "РОЗТАШУВАННЯ ТРАНСПОРТНИХ ЗАСОБІВ НА ДОРОЗІ",
+      "en": "LOCATION OF VEHICLES ON THE ROAD"
+    },
+    "countQuestions": 39
+  },
+  {
+    "id": 12,
+    "name": {
+      "uk": "ШВИДКІСТЬ РУХУ",
+      "en": "SPEED OF MOVEMENT"
+    },
+    "countQuestions": 40
+  },
+  {
+    "id": 13,
+    "name": {
+      "uk": "ДИСТАНЦІЯ, ІНТЕРВАЛ, ЗУСТРІЧНИЙ РОЗ’ЇЗД",
+      "en": "DISTANCE, INTERVAL, COUNTER TRAVEL"
+    },
+    "countQuestions": 13
+  },
+  {
+    "id": 14,
+    "name": {
+      "uk": "ОБГІН",
+      "en": "OVERTAKING"
+    },
+    "countQuestions": 56
+  },
+  {
+    "id": 15,
+    "name": {
+      "uk": "ЗУПИНКА І СТОЯНКА",
+      "en": "STOP AND PARKING"
+    },
+    "countQuestions": 96
+  },
+  {
+    "id": 16,
+    "name": {
+      "uk": "ПРОЇЗД ПЕРЕХРЕСТЬ",
+      "en": "TRAVEL CROSSROADS"
+    },
+    "countQuestions": 143
+  },
+  {
+    "id": 17,
+    "name": {
+      "uk": "ПЕРЕВАГИ МАРШРУТНИХ ТРАНСПОРТНИХ ЗАСОБІВ",
+      "en": "ADVANTAGES OF ROUTE VEHICLES"
+    },
+    "countQuestions": 12
+  },
+  {
+    "id": 18,
+    "name": {
+      "uk": "ПРОЇЗД ПІШОХІДНИХ ПЕРЕХОДІВ І ЗУПИНОК ТРАНСПОРТНИХ ЗАСОБІВ",
+      "en": "PEDESTRIAN CROSSING AND STOPPING OF VEHICLES"
+    },
+    "countQuestions": 18
+  },
+  {
+    "id": 19,
+    "name": {
+      "uk": "КОРИСТУВАННЯ ЗОВНІШНІМИ СВІТЛОВИМИ ПРИЛАДАМИ",
+      "en": "USE OF EXTERNAL LIGHTING DEVICES"
+    },
+    "countQuestions": 33
+  },
+  {
+    "id": 20,
+    "name": {
+      "uk": "РУХ ЧЕРЕЗ ЗАЛІЗНИЧНІ ПЕРЕЇЗДИ",
+      "en": "TRAFFIC THROUGH RAILWAY CROSSINGS"
+    },
+    "countQuestions": 32
+  },
+  {
+    "id": 21,
+    "name": {
+      "uk": "ПЕРЕВЕЗЕННЯ ПАСАЖИРІВ",
+      "en": "PASSENGER TRANSPORTATION"
+    },
+    "countQuestions": 12
+  },
+  {
+    "id": 22,
+    "name": {
+      "uk": "ПЕРЕВЕЗЕННЯ ВАНТАЖУ",
+      "en": "CARGO TRANSPORTATION"
+    },
+    "countQuestions": 6
+  },
+  {
+    "id": 23,
+    "name": {
+      "uk": "БУКСИРУВАННЯ ТА ЕКСПЛУАТАЦІЯ ТРАНСПОРТНИХ СОСТАВІВ",
+      "en": "TOWING AND OPERATION OF VEHICLES"
+    },
+    "countQuestions": 19
+  },
+  {
+    "id": 24,
+    "name": {
+      "uk": "НАВЧАЛЬНА ЇЗДА",
+      "en": "EDUCATIONAL RIDE"
+    },
+    "countQuestions": 14
+  },
+  {
+    "id": 25,
+    "name": {
+      "uk": "РУХ ТРАНСПОРТНИХ ЗАСОБІВ У КОЛОНАХ",
+      "en": "MOVEMENT OF VEHICLES IN COLUMNS"
+    },
+    "countQuestions": 8
+  },
+  {
+    "id": 26,
+    "name": {
+      "uk": "РУХ У ЖИТЛОВІЙ ТА ПІШОХІДНІЙ ЗОНІ",
+      "en": "TRAFFIC IN THE RESIDENTIAL AND PEDESTRIAN ZONE"
+    },
+    "countQuestions": 13
+  },
+  {
+    "id": 27,
+    "name": {
+      "uk": "РУХ ПО АВТОМАГІСТРАЛЯХ І ДОРОГАХ ДЛЯ АВТОМОБІЛІВ",
+      "en": "MOTORWAYS AND ROADS FOR VEHICLES"
+    },
+    "countQuestions": 14
+  },
+  {
+    "id": 28,
+    "name": {
+      "uk": "РУХ ПО ГІРСЬКИХ ДОРОГАХ І НА КРУТИХ СПУСКАХ",
+      "en": "MOVEMENT ON MOUNTAIN ROADS AND ON STEEP SLOPES"
+    },
+    "countQuestions": 8
+  },
+  {
+    "id": 29,
+    "name": {
+      "uk": "МІЖНАРОДНИЙ РУХ",
+      "en": "INTERNATIONAL MOVEMENT"
+    },
+    "countQuestions": 1
+  },
+  {
+    "id": 31,
+    "name": {
+      "uk": "ТЕХНІЧНИЙ СТАН ТРАНСПОРТНИХ ЗАСОБІВ ТА ЇХ ОБЛАДНАННЯ",
+      "en": "TECHNICAL CONDITION OF VEHICLES AND THEIR EQUIPMENT"
+    },
+    "countQuestions": 16
+  },
+  {
+    "id": 32,
+    "name": {
+      "uk": "ОКРЕМІ ПИТАННЯ ДОРОЖНЬОГО РУХУ, ЩО ПОТРЕБУЮТЬ УЗГОДЖЕННЯ",
+      "en": "SPECIFIC TRAFFIC ISSUES REQUIRED TO BE HARMONIZED"
+    },
+    "countQuestions": 5
+  },
+  {
+    "id": 33,
+    "name": {
+      "uk": "ДОРОЖНІ ЗНАКИ",
+      "en": "ROAD SIGNS"
+    },
+    "countQuestions": 356
+  },
+  {
+    "id": 34,
+    "name": {
+      "uk": "ДОРОЖНЯ РОЗМІТКА",
+      "en": "ROAD MARKING"
+    },
+    "countQuestions": 35
+  },
+  {
+    "id": 35,
+    "name": {
+      "uk": "ОСНОВИ БЕЗПЕЧНОГО ВОДІННЯ",
+      "en": "BASICS OF SAFE DRIVING"
+    },
+    "countQuestions": 169
+  },
+  {
+    "id": 37,
+    "name": {
+      "uk": "НАДАННЯ ДОМЕДИЧНОЇ ДОПОМОГИ",
+      "en": "PROVISION OF HOME MEDICAL AID"
+    },
+    "countQuestions": 65
+  },
+  {
+    "id": 36,
+    "name": {
+      "uk": "ОСНОВИ ПРАВА В ОБЛАСТІ ДОРОЖНЬОГО РУХУ",
+      "en": "FUNDAMENTALS OF LAW IN THE FIELD OF ROAD TRAFFIC"
+    },
+    "countQuestions": 8
+  },
+  {
+    "id": 38,
+    "name": {
+      "uk": "ЕТИКА ВОДІННЯ, КУЛЬТУРА ТА ВІДПОЧИНОК ВОДІЯ",
+      "en": "DRIVING ETHICS, CULTURE AND LEISURE DRIVER"
+    },
+    "countQuestions": 14
+  },
+  {
+    "id": 39,
+    "name": {
+      "uk": "ЄВРОПРОТОКОЛ",
+      "en": "EUROPROTOCOL"
+    },
+    "countQuestions": 6
+  },
+  {
+    "id": 44,
+    "name": {
+      "uk": "ДОДАТКОВІ ПИТАННЯ ЩОДО КАТЕГОРІЙ В1, В (ЗАГАЛЬНІ)",
+      "en": "ADDITIONAL QUESTIONS FOR CATEGORIES B1, B (GENERAL)"
+    },
+    "countQuestions": 16
+  },
+  {
+    "id": 45,
+    "name": {
+      "uk": "ДОДАТКОВІ ПИТАННЯ ЩОДО КАТЕГОРІЙ В1, В (БУДОВА І ТЕРМІНИ)",
+      "en": "ADDITIONAL QUESTIONS FOR CATEGORIES B1, B (STRUCTURE AND TERMS)"
+    },
+    "countQuestions": 33
+  },
+  {
+    "id": 46,
+    "name": {
+      "uk": "ДОДАТКОВІ ПИТАННЯ ЩОДО КАТЕГОРІЙ В1, В (ЮРИДИЧНА ВІДПОВІДАЛЬНІСТЬ)",
+      "en": "ADDITIONAL QUESTIONS FOR CATEGORIES B1, B (LEGAL LIABILITY)"
+    },
+    "countQuestions": 9
+  },
+  {
+    "id": 47,
+    "name": {
+      "uk": "ДОДАТКОВІ ПИТАННЯ ЩОДО КАТЕГОРІЙ В1, В (БЕЗПЕКА)",
+      "en": "ADDITIONAL QUESTIONS FOR CATEGORIES B1, B (SAFETY)"
+    },
+    "countQuestions": 7
+  }
+]
