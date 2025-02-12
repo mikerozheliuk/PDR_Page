@@ -41,7 +41,7 @@ export const Main: React.FC = () => {
             </div>
           </Link>
 
-          <Link to="#" className={styles.tests__item}>
+          <Link to="/main/themes" className={styles.tests__item}>
             <span>
               <LuScrollText />
             </span>

@@ -1,0 +1,75 @@
+@import '/src/styles/_index';
+
+.themes {
+  margin: 0 20px;
+
+  &__title {
+    text-align: center;
+    font-size: 1.8rem;
+    color: $text-color;
+    padding-top: 100px;
+  }
+
+  &__subtitle {
+    font-size: 1.8rem;
+    color: $text-color;
+    padding-bottom: 50px;
+  }
+
+  &__lists {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow-y: auto;
+  }
+  &__item {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    text-decoration: none;
+    background-color: $main-color;
+    color: $bg-color;
+    border-radius: 1rem;
+    padding: 10px;
+    width: 60%;
+    box-shadow: 0.1rem 0.2rem 0.2rem $main-color;
+    transition: 200ms;
+    margin-bottom: 0.9rem;
+    cursor: pointer;
+    &:hover {
+      transform: scale(0.95);
+    }
+    span {
+      width: 10%;
+      font-size: 32px;
+    }
+  }
+  &__name {
+    font-size: 20px;
+    font-weight: 700;
+  }
+  &__allquestion {
+    font-size: 14px;
+    font-weight: 500;
+  }
+  &__number {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    background: #000;
+    color: #fff;
+    font-weight: 700;
+    font-size: 16px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  &__wrap {
+    width: 90%;
+    display: grid;
+  }
+}
