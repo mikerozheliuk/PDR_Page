@@ -1,10 +1,7 @@
 [
   {
     "id": 1,
-    "name": {
-      "uk": "ЗАГАЛЬНІ ПОЛОЖЕННЯ",
-      "en": "GENERAL PROVISIONS"
-    },
+    "name": { "uk": "ЗАГАЛЬНІ ПОЛОЖЕННЯ", "en": "GENERAL PROVISIONS" },
     "countQuestions": 79
   },
   {
@@ -14,14 +11,6 @@
       "en": "RESPONSIBILITIES AND RIGHTS OF DRIVERS OF MECHANICAL VEHICLES"
     },
     "countQuestions": 37
-  },
-  {
-    "id": 30,
-    "name": {
-      "uk": "НОМЕРНІ, РОЗПІЗНАВАЛЬНІ ЗНАКИ, НАПИСИ І ПОЗНАЧЕННЯ",
-      "en": "NUMBERS, IDENTIFICATIONS, INSCRIPTIONS AND SYMBOLS"
-    },
-    "countQuestions": 13
   },
   {
     "id": 3,
@@ -49,10 +38,7 @@
   },
   {
     "id": 6,
-    "name": {
-      "uk": "ВИМОГИ ДО ВЕЛОСИПЕДИСТІВ",
-      "en": "REQUIREMENTS FOR CYCLISTS"
-    },
+    "name": { "uk": "ВИМОГИ ДО ВЕЛОСИПЕДИСТІВ", "en": "REQUIREMENTS FOR CYCLISTS" },
     "countQuestions": 22
   },
   {
@@ -65,18 +51,12 @@
   },
   {
     "id": 8,
-    "name": {
-      "uk": "РЕГУЛЮВАННЯ ДОРОЖНЬОГО РУХУ",
-      "en": "TRAFFIC REGULATION"
-    },
+    "name": { "uk": "РЕГУЛЮВАННЯ ДОРОЖНЬОГО РУХУ", "en": "TRAFFIC REGULATION" },
     "countQuestions": 90
   },
   {
     "id": 9,
-    "name": {
-      "uk": "ПОПЕРЕДЖУВАЛЬНІ СИГНАЛИ",
-      "en": "WARNING SIGNALS"
-    },
+    "name": { "uk": "ПОПЕРЕДЖУВАЛЬНІ СИГНАЛИ", "en": "WARNING SIGNALS" },
     "countQuestions": 58
   },
   {
@@ -95,14 +75,7 @@
     },
     "countQuestions": 39
   },
-  {
-    "id": 12,
-    "name": {
-      "uk": "ШВИДКІСТЬ РУХУ",
-      "en": "SPEED OF MOVEMENT"
-    },
-    "countQuestions": 40
-  },
+  { "id": 12, "name": { "uk": "ШВИДКІСТЬ РУХУ", "en": "SPEED OF MOVEMENT" }, "countQuestions": 40 },
   {
     "id": 13,
     "name": {
@@ -111,28 +84,15 @@
     },
     "countQuestions": 13
   },
-  {
-    "id": 14,
-    "name": {
-      "uk": "ОБГІН",
-      "en": "OVERTAKING"
-    },
-    "countQuestions": 56
-  },
+  { "id": 14, "name": { "uk": "ОБГІН", "en": "OVERTAKING" }, "countQuestions": 56 },
   {
     "id": 15,
-    "name": {
-      "uk": "ЗУПИНКА І СТОЯНКА",
-      "en": "STOP AND PARKING"
-    },
+    "name": { "uk": "ЗУПИНКА І СТОЯНКА", "en": "STOP AND PARKING" },
     "countQuestions": 96
   },
   {
     "id": 16,
-    "name": {
-      "uk": "ПРОЇЗД ПЕРЕХРЕСТЬ",
-      "en": "TRAVEL CROSSROADS"
-    },
+    "name": { "uk": "ПРОЇЗД ПЕРЕХРЕСТЬ", "en": "TRAVEL CROSSROADS" },
     "countQuestions": 143
   },
   {
@@ -161,26 +121,17 @@
   },
   {
     "id": 20,
-    "name": {
-      "uk": "РУХ ЧЕРЕЗ ЗАЛІЗНИЧНІ ПЕРЕЇЗДИ",
-      "en": "TRAFFIC THROUGH RAILWAY CROSSINGS"
-    },
+    "name": { "uk": "РУХ ЧЕРЕЗ ЗАЛІЗНИЧНІ ПЕРЕЇЗДИ", "en": "TRAFFIC THROUGH RAILWAY CROSSINGS" },
     "countQuestions": 32
   },
   {
     "id": 21,
-    "name": {
-      "uk": "ПЕРЕВЕЗЕННЯ ПАСАЖИРІВ",
-      "en": "PASSENGER TRANSPORTATION"
-    },
+    "name": { "uk": "ПЕРЕВЕЗЕННЯ ПАСАЖИРІВ", "en": "PASSENGER TRANSPORTATION" },
     "countQuestions": 12
   },
   {
     "id": 22,
-    "name": {
-      "uk": "ПЕРЕВЕЗЕННЯ ВАНТАЖУ",
-      "en": "CARGO TRANSPORTATION"
-    },
+    "name": { "uk": "ПЕРЕВЕЗЕННЯ ВАНТАЖУ", "en": "CARGO TRANSPORTATION" },
     "countQuestions": 6
   },
   {
@@ -191,20 +142,10 @@
     },
     "countQuestions": 19
   },
-  {
-    "id": 24,
-    "name": {
-      "uk": "НАВЧАЛЬНА ЇЗДА",
-      "en": "EDUCATIONAL RIDE"
-    },
-    "countQuestions": 14
-  },
+  { "id": 24, "name": { "uk": "НАВЧАЛЬНА ЇЗДА", "en": "EDUCATIONAL RIDE" }, "countQuestions": 14 },
   {
     "id": 25,
-    "name": {
-      "uk": "РУХ ТРАНСПОРТНИХ ЗАСОБІВ У КОЛОНАХ",
-      "en": "MOVEMENT OF VEHICLES IN COLUMNS"
-    },
+    "name": { "uk": "РУХ ТРАНСПОРТНИХ ЗАСОБІВ У КОЛОНАХ", "en": "MOVEMENT OF VEHICLES IN COLUMNS" },
     "countQuestions": 8
   },
   {
@@ -233,11 +174,16 @@
   },
   {
     "id": 29,
-    "name": {
-      "uk": "МІЖНАРОДНИЙ РУХ",
-      "en": "INTERNATIONAL MOVEMENT"
-    },
+    "name": { "uk": "МІЖНАРОДНИЙ РУХ", "en": "INTERNATIONAL MOVEMENT" },
     "countQuestions": 1
+  },
+  {
+    "id": 30,
+    "name": {
+      "uk": "НОМЕРНІ, РОЗПІЗНАВАЛЬНІ ЗНАКИ, НАПИСИ І ПОЗНАЧЕННЯ",
+      "en": "NUMBERS, IDENTIFICATIONS, INSCRIPTIONS AND SYMBOLS"
+    },
+    "countQuestions": 13
   },
   {
     "id": 31,
@@ -255,36 +201,16 @@
     },
     "countQuestions": 5
   },
-  {
-    "id": 33,
-    "name": {
-      "uk": "ДОРОЖНІ ЗНАКИ",
-      "en": "ROAD SIGNS"
-    },
-    "countQuestions": 356
-  },
-  {
-    "id": 34,
-    "name": {
-      "uk": "ДОРОЖНЯ РОЗМІТКА",
-      "en": "ROAD MARKING"
-    },
-    "countQuestions": 35
-  },
+  { "id": 33, "name": { "uk": "ДОРОЖНІ ЗНАКИ", "en": "ROAD SIGNS" }, "countQuestions": 356 },
+  { "id": 34, "name": { "uk": "ДОРОЖНЯ РОЗМІТКА", "en": "ROAD MARKING" }, "countQuestions": 35 },
   {
     "id": 35,
-    "name": {
-      "uk": "ОСНОВИ БЕЗПЕЧНОГО ВОДІННЯ",
-      "en": "BASICS OF SAFE DRIVING"
-    },
+    "name": { "uk": "ОСНОВИ БЕЗПЕЧНОГО ВОДІННЯ", "en": "BASICS OF SAFE DRIVING" },
     "countQuestions": 169
   },
   {
     "id": 37,
-    "name": {
-      "uk": "НАДАННЯ ДОМЕДИЧНОЇ ДОПОМОГИ",
-      "en": "PROVISION OF HOME MEDICAL AID"
-    },
+    "name": { "uk": "НАДАННЯ ДОМЕДИЧНОЇ ДОПОМОГИ", "en": "PROVISION OF HOME MEDICAL AID" },
     "countQuestions": 65
   },
   {
@@ -303,14 +229,7 @@
     },
     "countQuestions": 14
   },
-  {
-    "id": 39,
-    "name": {
-      "uk": "ЄВРОПРОТОКОЛ",
-      "en": "EUROPROTOCOL"
-    },
-    "countQuestions": 6
-  },
+  { "id": 39, "name": { "uk": "ЄВРОПРОТОКОЛ", "en": "EUROPROTOCOL" }, "countQuestions": 6 },
   {
     "id": 44,
     "name": {
