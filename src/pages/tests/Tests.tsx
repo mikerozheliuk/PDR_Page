@@ -36,6 +36,8 @@ interface QuestionWithAnswers extends Question {
   answers: Answer[];
 }
 
+const images = import.meta.glob('../../../questions/*', { eager: true, as: 'url' });
+
 export const Tests: React.FC = () => {
   const [selectedQuestions, setSelectedQuestions] = useState<QuestionWithAnswers[]>([]);
   const [activeQuestionIndex, setActiveQuestionIndex] = useState<number>(0);
@@ -68,6 +70,13 @@ export const Tests: React.FC = () => {
   }
 
   const activeQuestion = selectedQuestions[activeQuestionIndex];
+
+  let imageUrl: string | undefined;
+  if (activeQuestion.picture) {
+    const fileName = activeQuestion.picture.replace('questions/', '');
+    const imageKey = `../../../questions/${fileName}`;
+    imageUrl = images[imageKey] as string;
+  }
 
   return (
     <div className={styles.tests}>
@@ -107,7 +116,7 @@ export const Tests: React.FC = () => {
 
         {activeQuestion.picture && (
           <div className={styles.questionImage}>
-            <img src={activeQuestion.picture} alt="Питання" />
+            <img src={imageUrl} alt="Question img" />
           </div>
         )}
 
