@@ -1,0 +1,92 @@
+.tests {
+  min-height: 1000px;
+  width: 100%;
+  background: #171717;
+
+  &__wrap {
+    padding: 40px 0 200px;
+  }
+
+  &__question {
+    text-align: center;
+    max-width: 1160px;
+    font-size: 24px;
+    color: #f4f4f4;
+  }
+}
+
+.testWrap {
+  &__buttons {
+    padding-top: 50px;
+    border-top: 1px solid #fff;
+    font-size: 18px;
+    color: #f4f4f4;
+
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  &__button {
+    padding: 5px 50px 5px 5px;
+    color: #f4f4f4;
+    transition: all 0.3s;
+
+    &:hover {
+      background: #fff;
+      color: #0d1f3c;
+    }
+  }
+}
+
+.testHeader {
+  &__container {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__text {
+    font-size: 1.8rem;
+    color: #f4f4f4;
+  }
+
+  &__wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+
+    color: #f4f4f4;
+  }
+
+  &__timer {
+    font-size: 2.2rem;
+  }
+
+  &__questions {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  &__question {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    font-size: 1.7rem;
+    font-weight: 700;
+
+    min-width: 30px;
+    border-radius: 10px;
+
+    color: #f4f4f4;
+    background-color: #a2d419;
+  }
+}

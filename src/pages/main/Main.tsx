@@ -21,7 +21,7 @@ export const Main: React.FC = () => {
         <div className={styles.tests__descr}>Оберіть режим навчання:</div>
 
         <div className={styles.tests__list}>
-          <Link to="#" className={styles.tests__item}>
+          <Link to="/main/tests" className={styles.tests__item}>
             <span>
               <TbClipboardList />
             </span>
